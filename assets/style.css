@@ -1,2 +1,254 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
-/*# sourceMappingURL=style.css.map */
+.wrap p {
+  margin-top: 5px;
+  padding: 0;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #747474;
+}
+.wrap a {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #747474;
+}
+
+.header img {
+  margin-top: 5px;
+  height: auto;
+  width: 200px;
+}
+
+.cont {
+  background-image: url(./images/draw.svg);
+  background-position: 75% 50%;
+  background-repeat: no-repeat;
+}
+
+.cont .row {
+  margin-top: 160px;
+  background-image: url(./images/shapes.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.cont .btn-danger {
+  background-color: #f84e77;
+  margin-top: 5px;
+  color: white;
+  padding: 14px 18px;
+}
+.cont h2 {
+  font-size: 4.444rem;
+  text-align: center;
+  color: #101010;
+}
+.cont p {
+  font-size: 24px;
+  padding: 20px;
+  color: #747474;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+}
+.navbar a {
+  color: #000000;
+}
+
+.butt-1 .btn-danger {
+  background-color: #f84e77;
+  margin-top: 5px;
+  color: white;
+  padding: 14px 18px;
+}
+.butt-1 .btn-info {
+  background-color: #1baaa0;
+  margin-top: 5px;
+  color: white;
+  padding: 14px 18px;
+}
+
+.box .box-1 {
+  margin-top: 50px;
+  padding: 40px 30px;
+  background-color: #1baaa01a;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.box .icon-box {
+  font-size: 37px;
+  margin-bottom: 15px;
+}
+.box .box-title {
+  font-size: 2rem;
+  margin: 5px 0;
+}
+.box .box-desc {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.box-2 {
+  margin-top: 50px;
+  padding: 40px 30px;
+  background-color: #1baaa01a;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.icon-box {
+  font-size: 37px;
+  margin-bottom: 15px;
+}
+
+.box-title {
+  font-size: 2rem;
+  margin: 5px 0;
+}
+
+.box-desc {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.box-3 {
+  margin-top: 50px;
+  padding: 40px 30px;
+  background-color: #1baaa01a;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.box-3 .icon-box {
+  font-size: 37px;
+  margin-bottom: 15px;
+}
+.box-3 .box-title {
+  font-size: 2rem;
+  margin: 5px 0;
+}
+.box-3 .box-desc {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.hero {
+  padding: 80px 0;
+  margin-top: 100px;
+  background-image: url(./images/boxer.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 50px;
+}
+
+.col img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.page-3 {
+  background-color: #1baaa01a;
+  padding: 10px;
+}
+
+.company {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.company .par {
+  margin-top: 25px;
+}
+.company h5 {
+  font-size: 24px;
+  color: #1baaa0;
+  margin: 0 0 20px;
+}
+.company h2 {
+  font-size: 48px;
+  color: #101010;
+  margin: 0 0 20px;
+}
+.company p {
+  font-size: 15px;
+  color: #747474;
+  margin: 0 0 20px;
+}
+.company .btn-danger {
+  background-color: #f84e77;
+  margin-top: 5px;
+  color: white;
+  padding: 14px 18px;
+  margin: 10px 0 20px;
+}
+.company img {
+  width: 570px;
+  height: 527px;
+}
+
+.wast {
+  margin-bottom: 100px;
+}
+.wast .par-2 {
+  margin-top: 25px;
+}
+.wast h5 {
+  font-size: 24px;
+  color: #1baaa0;
+  margin: 0 0 20px;
+}
+.wast h2 {
+  font-size: 48px;
+  color: #101010;
+  margin: 0 0 20px;
+}
+.wast p {
+  font-size: 15px;
+  color: #747474;
+  margin: 0 0 20px;
+}
+.wast .btn-danger {
+  background-color: #f84e77;
+  margin-top: 5px;
+  color: white;
+  padding: 14px 18px;
+  margin: 10px 0 20px;
+}
+.wast img {
+  width: 570px;
+  height: 527px;
+}
+
+.plan {
+  margin-top: 100px;
+}
+.plan h2 {
+  font-size: 48px;
+  color: #101010;
+  text-align: center;
+  margin: 15px;
+}
+.plan p {
+  margin: 15px;
+  color: #747474;
+  text-align: center;
+}
+
+.plan {
+  padding: 20px;
+}
+.plan .best {
+  padding: 15px;
+  display: inline-flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.plan .month {
+  padding: 10px;
+  color: #1baaa0;
+}
+.plan .year {
+  padding: 10px;
+  color: #1baaa0;
+}/*# sourceMappingURL=style.css.map */
